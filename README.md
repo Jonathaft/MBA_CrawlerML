@@ -13,6 +13,7 @@ O Crawler é executado no arquivo questao02.py. Primeiro ele abre a página do M
 ### Pré Requisitos
 
 Python3 e bibliotecas selenium e scrapy. 
+
 Navegador Firefox
 
 ### Execução
