@@ -1,0 +1,27 @@
+3) Quais cuidados devem ser observados ao capturar dados de um site?
+	R - O web scraping e o web crawling não são ilegais por si mesmos. Você pode raspar ou rastrear seu próprio site, sem problemas.
+		Existe um problema quando você raspa/rastreia o site de outra pessoa, sem obter a permissão prévia por escrito ou em desconsideração dos Termos de Serviço ou Uso. 
+		Para nos ajudar existe um arquivo público chamado "robots.txt". Ele é um arquivo público encontrado na raiz dos sites, que informa aos Bots quais caminhos tem ou não acesso permitido.
+		Contudo temos que ter em mente algumas "boas práticas":
+		* Use uma taxa de rastreamento razoável, ou seja, não bombardeie o site com solicitações.
+		* Respeite os Termos de Serviço.
+		* O conteúdo capturado não tem direitos autorais
+		* O scraping não onera o serviços do site
+		* O scraper não viola os termos de uso do site
+		* O scraper não coleta informações sensíveis
+		* Não publique novamente seus dados rastreados ou copiados ou qualquer conjunto de dados derivado sem verificar a licença dos dados ou sem obter uma permissão por escrito do detentor dos direitos autorais.
+		* Não baseie toda a sua empresa na extração de dados. O site que você raspa pode, eventualmente, bloquear você.
+
+
+4) Quais ameaças capturas automáticas proporcionam para sistemas web?
+	R - Principais ameaças: 
+		* O scraping pode onerar o serviços oferecidos pelo site
+		* Captura de informações sensíveis
+		* Captura de conteúdo protegido por direitos autorais
+		* Violar os termos de uso do site
+		
+		
+5) Você diria que bots ou crawlers são programas facilmente paralelizáveis? Se sim,
+Explique como isso seria implementado dando um exemplo.
+	R - Sim, são altamente Paralelizáveis!
+		Dividindo as tarefas gerais em pequenas partes (subtarefas) utilizando o conceito de threads ou até mesmo utilizando. As funções que pode sem independentes podem ser executadas de formas paralelas chamando a execução por forma de threads.
