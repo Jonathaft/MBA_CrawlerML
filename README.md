@@ -9,11 +9,11 @@ O Crawler é executado no arquivo questao01.py. Primeiro ele abre a página do M
 
 
 ## Questão 2 
-O Crawler é executado no arquivo questao02.py. Primeiro ele abre a página do Mercado Livre aplicando a busca do produto informado no parametro de execução. Em seguida os dados coletados dos produtos (index do produto, descrição do produto, preço, pagina) são salvos no arquivo output_ML.json. 
+O Crawler é executado no arquivo questao02.py. Primeiro ele abre a página do Mercado Livre aplicando a busca do produto informado no parâmetro de execução. Em seguida os dados coletados dos produtos (index do produto, descrição do produto, preço, pagina) são salvos no arquivo output_ML.json. 
 
 ### Pré Requisitos
 
-Python3 e bibliotecas selenium. 
+Python3 e bibliotecas selenium e scrapy. 
 Navegador Firefox
 
 ### Execução
