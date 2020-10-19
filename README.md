@@ -5,7 +5,7 @@
 
 
 ## Questão 1 
-O Crawler é executado no arquivo questao01.py. Após acesso ao site da UOL é coletado e impresso ao final a cotação atual do Dólar.
+O Crawler é executado no arquivo questao01.py. Após acesso ao site da UOL é coletado e impresso a cotação atual do Dólar no final da execução.
 
 ## Questão 2 
 O Crawler é executado no arquivo questao02.py. Primeiro ele abre a página do Mercado Livre aplicando a busca do produto informado no parâmetro de execução. Em seguida os dados coletados dos produtos (index do produto, descrição do produto, preço, pagina) são salvos no arquivo output_ML.json. 
