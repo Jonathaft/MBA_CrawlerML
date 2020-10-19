@@ -28,7 +28,7 @@ scrapy runspider questao01.py -s LOG_ENABLED=False
 Comando para executar o Crawler - Questão 02:
 
 ```
-py questao02.py "produto que deve ser procurado"
+python questao02.py "produto que deve ser procurado"
 ```
 
 
